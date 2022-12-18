@@ -1,0 +1,80 @@
+body {
+  font-family: arial;
+  font-size: 13px;
+  color: #333;
+}
+
+#header {
+  background: #222;
+}
+
+#logo,
+#search,
+#cart {
+  height: 60px;
+}
+
+#search {
+  padding-top: 14px;
+}
+
+#search input {
+  width: 280px;
+  height: 30px;
+  border-radius: 3px 0 0 3px;
+  font-size: 13px;
+}
+
+#search button {
+  background: #eb1f27;
+  color: #fff;
+  font-size: 13px;
+  height: 30px;
+  border: none;
+  border-radius: 0 3px 3px 0;
+}
+
+#cart {
+  padding-top: 14px;
+}
+
+#cart a,
+#cart span {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#cart span {
+  width: 30px;
+  height: 30px;
+  background: #eb1f27;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 100%;
+}
+
+#menu ul {
+  background: #eb1f27;
+  overflow: hidden;
+  padding: 0;
+}
+
+.menu-item {
+  height: 40px;
+  line-height: 40px;
+  list-style: none;
+  float: left;
+  padding: 0 15px;
+  border-right: 1px solid #c60a11;
+  text-transform: capitalize;
+}
+
+.menu-item:hover {
+  background: #c60a11;
+  cursor: pointer;
+}
+
+.menu-item a {
+  color: #fff;
+}
